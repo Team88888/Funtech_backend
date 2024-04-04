@@ -1,15 +1,17 @@
+APP_TITLE=Funtec
+APP_DESCRIPTION=Funtec app Description here
 SECRET_KEY=MY_SECRET_KEY
-DEBUG=True
-
-# Данные админа для входа в админ-зону
-DJANGO_SUPERUSER_USERNAME=adm
-DJANGO_SUPERUSER_EMAIL=adm@adm.com
-DJANGO_SUPERUSER_PASSWORD=admpw
 
 # Application DB
-DB_ENGINE=django.db.backends.postgresql
-DB_NAME=postgres
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgrespw
 DB_HOST=db
 DB_PORT=5432
+POSTGRES_DB=postgres
+
+#Test DB
+POSTGRES_USER_TEST=postgres_test_user
+POSTGRES_PASSWORD_TEST=postgres_test_password
+DB_HOST_TEST=db_test
+DB_PORT_TEST=5432
+POSTGRES_DB_TEST=postgres_test
