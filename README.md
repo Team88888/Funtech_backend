@@ -6,6 +6,12 @@
 https://funtech-team8.duckdns.org/api/v1/ <br>
 https://funtech-team8.duckdns.org/api/v2/ <br>
 
+  Мониторинг фоновых задач Celery осуществляется по адресу: http://funtech-team8.duckdns.org:5555/ .
+
+  Для активации фоновых задач необходимо выполнить GET-запрос к эндпойнтам:
+  - специализаций (http://funtech-team8.duckdns.org/api/v2/specializations/?theme=3)
+  - стека (http://funtech-team8.duckdns.org/api/v2/stack/?specialization=4)
+
   Администрирование приложения может быть осуществлено:
   - через админ панель по адресу https://funtech-team8.duckdns.org/admin<br>
       <a href="#t1">Учетные данные</a> для входа в админ-зону
